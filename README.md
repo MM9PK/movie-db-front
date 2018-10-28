@@ -6,7 +6,15 @@ Type `git clone https://github.com/MM9PK/movie-db-front.git` and type your crede
 
 # IDE 
 
-I suggest to download Visual Studio Code to work with front end project and add some extensions like HTML/CSS/JS/JSON auto formatting. I highly recommend to auto format your code with default shortcut Ctrl + Alt + F. It will help with clarity of code and change tracking in git.
+I suggest to download Visual Studio Code to work with front end project and add some extensions like `HTML/CSS/JS/JSON` auto formatting. I highly recommend to auto format your code. You can do it by pressing default shortcut `Ctrl + Alt + F`. It will help with clarifying the code and change tracking in git.
+
+# FIRST STEPS IN PROJECT
+
+After doing all above press `Ctrl + J` and click Terminal to run `powershell`, it's built-in `cmd`. Type `git checkout develop` This is our main branch which all other branches will be merged to. We DO NOT commit any changes on `master` branch. Then type `git fetch`, `git pull`. To create new branch type in `git checkout -b <NUMBER_FROM_TRELLO-new_branch_name>` All branches must be created based on `develop` branch which means you have to checkout develop branch before creating new one.
+
+# PRINCIPLES
+
+`TODO`
 
 # MovieDb
 
